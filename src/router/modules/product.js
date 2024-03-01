@@ -1,4 +1,5 @@
 const Layout = () => import('@/layout/index.vue')
+
 const category = () => import('@/views/product/category.vue')
 const brand = () => import('@/views/product/brand.vue')
 const categoryBrand = () => import('@/views/product/categoryBrand.vue')
@@ -44,7 +45,7 @@ export default [
         name: 'productSpec',
         component: productSpec,
         meta: {
-          title: '商品规格',
+          title: '商品规格管理',
         },
       },
       {
